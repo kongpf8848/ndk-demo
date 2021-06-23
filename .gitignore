@@ -12,3 +12,15 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+/**/.idea/vcs.xml
+
+/Demo1/.gradle
+/Demo1/.idea
+/Demo2/.gradle
+/Demo2/.idea
+/Demo3/.gradle
+/Demo3/.idea
+/Demo4/.gradle
+/Demo4/.idea
+/Demo5/.gradle
+/Demo5/.idea
