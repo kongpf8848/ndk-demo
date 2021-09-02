@@ -40,6 +40,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
+import io.github.kongpf8848.ndk.demo.R;
+
 public class RLottieDrawable extends BitmapDrawable implements Animatable {
 
     public static native long create(String src, String json, int w, int h, int[] params, boolean precache, int[] colorReplacement, boolean limitFps);
@@ -353,31 +355,9 @@ public class RLottieDrawable extends BitmapDrawable implements Animatable {
         }
     };
 
-    public RLottieDrawable(Context context, String assetName, int w, int h, boolean startDecode, int[] colorReplacement) throws IOException {
-        this(context.getAssets().open(assetName),assetName,w,h,startDecode,colorReplacement);
-    }
-
-
-    public RLottieDrawable(InputStream inputStream, String name, int w, int h, boolean startDecode, int[] colorReplacement) {
-        width = w;
-        height = h;
-        autoRepeat = 0;
-        String jsonString = StreamHelper.toString(inputStream);
-        if (TextUtils.isEmpty(jsonString)) {
-            return;
-        }
-        getPaint().setFlags(Paint.FILTER_BITMAP_FLAG);
-        nativePtr = createWithJson(jsonString, name, metaData, colorReplacement);
-        timeBetweenFrames = Math.max(16, (int) (1000.0f / metaData[1]));
-        if (startDecode) {
-            setAllowDecodeSingleFrame(true);
-        }
-    }
-
     public RLottieDrawable(File file, int w, int h, boolean precache, boolean limitFps) {
         this(file, w, h, precache, limitFps, null);
     }
-
 
     public RLottieDrawable(File file, int w, int h, boolean precache, boolean limitFps, int[] colorReplacement) {
         width = w;
@@ -421,22 +401,32 @@ public class RLottieDrawable extends BitmapDrawable implements Animatable {
         this(context,rawRes, name, w, h, true, null);
     }
 
-
-
-    public boolean isDice() {
-        return isDice != 0;
-    }
-
-
-    public boolean hasBaseDice() {
-        return nativePtr != 0 || loadingInBackground;
-    }
-
     public RLottieDrawable(Context context,int rawRes, String name, int w, int h, boolean startDecode, int[] colorReplacement) {
         width = w;
         height = h;
         autoRepeat = 0;
         String jsonString = readRes(context,null, rawRes);
+        if (TextUtils.isEmpty(jsonString)) {
+            return;
+        }
+        getPaint().setFlags(Paint.FILTER_BITMAP_FLAG);
+        nativePtr = createWithJson(jsonString, name, metaData, colorReplacement);
+        timeBetweenFrames = Math.max(16, (int) (1000.0f / metaData[1]));
+        if (startDecode) {
+            setAllowDecodeSingleFrame(true);
+        }
+    }
+
+    public RLottieDrawable(Context context, String assetName, int w, int h, boolean startDecode, int[] colorReplacement) throws IOException {
+        this(context.getAssets().open(assetName),assetName,w,h,startDecode,colorReplacement);
+    }
+
+
+    public RLottieDrawable(InputStream inputStream, String name, int w, int h, boolean startDecode, int[] colorReplacement) {
+        width = w;
+        height = h;
+        autoRepeat = 0;
+        String jsonString = StreamHelper.toString(inputStream);
         if (TextUtils.isEmpty(jsonString)) {
             return;
         }

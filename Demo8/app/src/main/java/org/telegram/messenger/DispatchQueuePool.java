@@ -1,7 +1,5 @@
 package org.telegram.messenger;
 
-import android.os.Handler;
-import android.os.Looper;
 import android.os.SystemClock;
 
 import java.security.SecureRandom;
@@ -38,7 +36,7 @@ public class DispatchQueuePool {
                 }
             }
             if (!queues.isEmpty() || !busyQueues.isEmpty()) {
-                new Handler(Looper.getMainLooper()).postDelayed(this, 30000);
+                AndroidUtilities.runOnUIThread(this, 30000);
                 cleanupScheduled = true;
             } else {
                 cleanupScheduled = false;
@@ -64,7 +62,7 @@ public class DispatchQueuePool {
             queue = queues.remove(0);
         }
         if (!cleanupScheduled) {
-            new Handler(Looper.getMainLooper()).postDelayed(cleanupRunnable, 30000);
+            AndroidUtilities.runOnUIThread(cleanupRunnable, 30000);
             cleanupScheduled = true;
         }
         totalTasksCount++;
@@ -76,7 +74,7 @@ public class DispatchQueuePool {
         busyQueuesMap.put(queue, count + 1);
         queue.postRunnable(() -> {
             runnable.run();
-            new Handler(Looper.getMainLooper()).post(() -> {
+            AndroidUtilities.runOnUIThread(() -> {
                 totalTasksCount--;
                 int remainingTasksCount = busyQueuesMap.get(queue) - 1;
                 if (remainingTasksCount == 0) {
