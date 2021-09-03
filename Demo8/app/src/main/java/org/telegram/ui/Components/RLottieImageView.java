@@ -1,6 +1,9 @@
 package org.telegram.ui.Components;
 
 import android.content.Context;
+import android.util.AttributeSet;
+
+import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatImageView;
 
 import org.telegram.messenger.AndroidUtilities;
@@ -18,6 +21,14 @@ public class RLottieImageView extends AppCompatImageView {
 
     public RLottieImageView(Context context) {
         super(context);
+    }
+
+    public RLottieImageView(Context context,  @Nullable AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    public RLottieImageView(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
     }
 
     public void clearLayerColors() {
