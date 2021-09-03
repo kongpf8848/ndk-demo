@@ -18,6 +18,10 @@ NDK入门实战Demo，由浅入深，一步一步讲解NDK的使用。
 
 [7. Kotlin传递数组给C++代码&&C++传递数组给Kotlin代码](https://github.com/kongpf8848/ndk-demo/tree/master/Demo7)
 
+[8. 编译Telegram rlottie类库](https://github.com/kongpf8848/ndk-demo/tree/master/Demo8)
+
+[9. 一次性生成多个so库](https://github.com/kongpf8848/ndk-demo/tree/master/Demo9)
+
 
 ## 签名机制 
 函数签名就是函数的参数与返回值的结合体，用来进行精准匹配。函数签名由字符串组成，第一部分是包含在圆括号()里的，用来说明参数类型，第二部分则是返回值类型。比如```([Ljava/lang/Object;)Z```就是参数为```Object[]```，返回值是```boolean```的函数的签名。
