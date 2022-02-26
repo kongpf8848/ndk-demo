@@ -4,23 +4,23 @@ NDK入门实战Demo，由浅入深，一步一步讲解NDK的使用。
 
 ## Demo
 
-[1. 最简单的示例，使用Kotlin调用C++代码](https://github.com/kongpf8848/ndk-demo/tree/master/Demo1)
+* [Demo1](https://github.com/kongpf8848/ndk-demo/tree/master/Demo1) - 最简单的示例，使用Kotlin调用C++代码
 
-[2. 在C++代码中打印Log输出到Logcat](https://github.com/kongpf8848/ndk-demo/tree/master/Demo2)
+* [Demo2](https://github.com/kongpf8848/ndk-demo/tree/master/Demo2) - 在C++代码中打印Log输出到Logcat
 
-[3. 使用JNI_OnLoad和JNI_OnUnload方法](https://github.com/kongpf8848/ndk-demo/tree/master/Demo3)
+* [Demo3](https://github.com/kongpf8848/ndk-demo/tree/master/Demo3) - 使用JNI_OnLoad和JNI_OnUnload方法
 
-[4. 使用Kotlin调用C++代码，在C++代码中调用Kotlin](https://github.com/kongpf8848/ndk-demo/tree/master/Demo4)
+* [Demo4](https://github.com/kongpf8848/ndk-demo/tree/master/Demo4) - 使用Kotlin调用C++代码，在C++代码中调用Kotlin
 
-[5. 使用Kotlin调用C++代码获取应用程序包名和签名](https://github.com/kongpf8848/ndk-demo/tree/master/Demo5)
+* [Demo5](https://github.com/kongpf8848/ndk-demo/tree/master/Demo5) - 使用Kotlin调用C++代码获取应用程序包名和签名
 
-[6. 动态注册jni函数](https://github.com/kongpf8848/ndk-demo/tree/master/Demo6)
+* [Demo6](https://github.com/kongpf8848/ndk-demo/tree/master/Demo6) - 动态注册jni函数
 
-[7. Kotlin传递数组给C++代码&&C++传递数组给Kotlin代码](https://github.com/kongpf8848/ndk-demo/tree/master/Demo7)
+* [Demo7](https://github.com/kongpf8848/ndk-demo/tree/master/Demo7) - Kotlin传递数组给C++代码&&C++传递数组给Kotlin代码
 
-[8. 编译Telegram rlottie类库](https://github.com/kongpf8848/ndk-demo/tree/master/Demo8)
+* [Demo8](https://github.com/kongpf8848/ndk-demo/tree/master/Demo8) - 编译Telegram rlottie类库
 
-[9. 一次性生成多个so库](https://github.com/kongpf8848/ndk-demo/tree/master/Demo9)
+* [Demo9](https://github.com/kongpf8848/ndk-demo/tree/master/Demo9) - 一次性生成多个so库
 
 
 ## 签名机制 
