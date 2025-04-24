@@ -18,9 +18,7 @@ NDK入门实战Demo，由浅入深，一步一步讲解NDK的使用。
 
 * [Demo7](https://github.com/kongpf8848/ndk-demo/tree/master/Demo7) - Kotlin传递数组给C++代码&&C++传递数组给Kotlin代码
 
-* [Demo8](https://github.com/kongpf8848/ndk-demo/tree/master/Demo8) - 编译Telegram rlottie类库
-
-* [Demo9](https://github.com/kongpf8848/ndk-demo/tree/master/Demo9) - 一次性生成多个so库
+* [Demo8](https://github.com/kongpf8848/ndk-demo/tree/master/Demo8) - 一次性生成多个so库
 
 
 ## 签名机制 
