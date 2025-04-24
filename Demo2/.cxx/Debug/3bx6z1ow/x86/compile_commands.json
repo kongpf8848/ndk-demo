@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/.cxx/Debug/3bx6z1ow/x86",
+  "command": "/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android21 --sysroot=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/27.0.12077973/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/cpp/native-lib.cpp",
+  "file": "/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/cpp/native-lib.cpp"
+}
+]

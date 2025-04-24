@@ -1,0 +1,18 @@
+                        -H/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/27.0.12077973
+-DCMAKE_ANDROID_NDK=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/27.0.12077973
+-DCMAKE_TOOLCHAIN_FILE=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/27.0.12077973/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/build/intermediates/cxx/Debug/3bx6z1ow/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/build/intermediates/cxx/Debug/3bx6z1ow/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-B/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/.cxx/Debug/3bx6z1ow/x86
+-GNinja
+                        Build command args: []
+                        Version: 2

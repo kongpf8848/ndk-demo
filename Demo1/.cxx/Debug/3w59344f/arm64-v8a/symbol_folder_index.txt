@@ -1,0 +1,1 @@
+/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo1/build/intermediates/cxx/Debug/3w59344f/obj/arm64-v8a

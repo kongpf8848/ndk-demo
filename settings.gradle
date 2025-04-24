@@ -1,0 +1,10 @@
+rootProject.name = "ndk-demo"
+include ':Demo1'
+include ':Demo2'
+include ':Demo3'
+include ':Demo4'
+include ':Demo5'
+include ':Demo6'
+include ':Demo7'
+include ':Demo8'
+

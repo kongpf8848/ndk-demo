@@ -1,0 +1,129 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/kongpengfei/.gradle/caches/8.9/transforms/b522e05444797c747e5a64d97b2b69c1/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/kongpengfei/.gradle/caches/8.9/transforms/eccb4c0383e3029e1bab6cb1a3c6cbc9/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/2e69e02a958aaef3e62681953eca0348/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/298288b292d86abcac4a56fd89eb03c6/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/19da4a450699a48ee87fbcb56c527926/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/1eae4a0196a331c369146da679d765e2/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/28295288af95a0630a823f4122279677/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/e5377e6f8becbb6b3dccab668bdef39d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/8a3738c38c959406ab2a76f1cfa26ced/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/a922a6e639bee285c97608d2f9f03eba/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/bdff543a043a05468e3fa5b77f5e25a3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/6b03f4b3de21d3169912125d51e7033b/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /Users/kongpengfei/.gradle/caches/8.9/transforms/3f639adc02da672799f041821b257758/transformed/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/c463185db793c9ff0f45d6340e04b1c7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/a6c122cf5183df02b393950f70947873/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/f7d263e3b181dbb146e663ba9a76edd0/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/0288821dbc1ffb07800aa0b49df733e1/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/323d2820e7c4c7a10ac576b1ab081182/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/b9f247bc07a74d75e68f10b64730c6ff/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/ec801cd1cf23d1376eebd7a7ed59ec28/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/c50ddb254dc57c82e83b481494001cfd/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/54d4b0041870f894d9ac2c58e22ec207/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:5:5-21:19
+INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/kongpengfei/.gradle/caches/8.9/transforms/eccb4c0383e3029e1bab6cb1a3c6cbc9/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/kongpengfei/.gradle/caches/8.9/transforms/eccb4c0383e3029e1bab6cb1a3c6cbc9/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.2] /Users/kongpengfei/.gradle/caches/8.9/transforms/3f639adc02da672799f041821b257758/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/kongpengfei/.gradle/caches/8.9/transforms/3f639adc02da672799f041821b257758/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/a6c122cf5183df02b393950f70947873/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/a6c122cf5183df02b393950f70947873/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/kongpengfei/.gradle/caches/8.9/transforms/3f639adc02da672799f041821b257758/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:11:9-40
+activity#io.github.kongpf8848.ndk.demo.MainActivity
+ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:12:9-20:20
+	android:exported
+		ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml
+INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/kongpengfei/.gradle/caches/8.9/transforms/b522e05444797c747e5a64d97b2b69c1/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/kongpengfei/.gradle/caches/8.9/transforms/b522e05444797c747e5a64d97b2b69c1/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/kongpengfei/.gradle/caches/8.9/transforms/eccb4c0383e3029e1bab6cb1a3c6cbc9/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/kongpengfei/.gradle/caches/8.9/transforms/eccb4c0383e3029e1bab6cb1a3c6cbc9/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/2e69e02a958aaef3e62681953eca0348/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/2e69e02a958aaef3e62681953eca0348/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/298288b292d86abcac4a56fd89eb03c6/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/298288b292d86abcac4a56fd89eb03c6/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/19da4a450699a48ee87fbcb56c527926/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/19da4a450699a48ee87fbcb56c527926/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/1eae4a0196a331c369146da679d765e2/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/1eae4a0196a331c369146da679d765e2/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/28295288af95a0630a823f4122279677/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/28295288af95a0630a823f4122279677/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/e5377e6f8becbb6b3dccab668bdef39d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/e5377e6f8becbb6b3dccab668bdef39d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/8a3738c38c959406ab2a76f1cfa26ced/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/8a3738c38c959406ab2a76f1cfa26ced/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/a922a6e639bee285c97608d2f9f03eba/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/a922a6e639bee285c97608d2f9f03eba/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/bdff543a043a05468e3fa5b77f5e25a3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/bdff543a043a05468e3fa5b77f5e25a3/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/6b03f4b3de21d3169912125d51e7033b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/6b03f4b3de21d3169912125d51e7033b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /Users/kongpengfei/.gradle/caches/8.9/transforms/3f639adc02da672799f041821b257758/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/kongpengfei/.gradle/caches/8.9/transforms/3f639adc02da672799f041821b257758/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/c463185db793c9ff0f45d6340e04b1c7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/c463185db793c9ff0f45d6340e04b1c7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/a6c122cf5183df02b393950f70947873/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/a6c122cf5183df02b393950f70947873/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/f7d263e3b181dbb146e663ba9a76edd0/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/f7d263e3b181dbb146e663ba9a76edd0/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/0288821dbc1ffb07800aa0b49df733e1/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/0288821dbc1ffb07800aa0b49df733e1/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/323d2820e7c4c7a10ac576b1ab081182/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/323d2820e7c4c7a10ac576b1ab081182/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/b9f247bc07a74d75e68f10b64730c6ff/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/b9f247bc07a74d75e68f10b64730c6ff/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/ec801cd1cf23d1376eebd7a7ed59ec28/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/ec801cd1cf23d1376eebd7a7ed59ec28/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/c50ddb254dc57c82e83b481494001cfd/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/c50ddb254dc57c82e83b481494001cfd/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/54d4b0041870f894d9ac2c58e22ec207/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/kongpengfei/.gradle/caches/8.9/transforms/54d4b0041870f894d9ac2c58e22ec207/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/src/main/AndroidManifest.xml
