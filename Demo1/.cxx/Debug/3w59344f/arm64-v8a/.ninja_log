@@ -1,5 +1,0 @@
-# ninja log v5
-0	449	1745499580	CMakeFiles/native-lib.dir/native-lib.cpp.o	431dd9a928ea35af
-450	582	1745499580	/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo1/build/intermediates/cxx/Debug/3w59344f/obj/arm64-v8a/libnative-lib.so	9192e6dd7355bcf
-0	482	1745500152	CMakeFiles/native-lib.dir/native-lib.cpp.o	431dd9a928ea35af
-483	612	1745500152	/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo1/build/intermediates/cxx/Debug/3w59344f/obj/arm64-v8a/libnative-lib.so	9192e6dd7355bcf
