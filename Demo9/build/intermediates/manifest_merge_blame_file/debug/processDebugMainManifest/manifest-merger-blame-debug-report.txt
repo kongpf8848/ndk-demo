@@ -13,7 +13,7 @@
 12        android:allowBackup="true"
 12-->/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/src/main/AndroidManifest.xml:5:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.2] /Users/kongpengfei/.gradle/caches/8.9/transforms/72912968251c3733133428a9074b3957/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.3.2] /Users/kongpengfei/.gradle/caches/8.9/transforms/b4b68e07f53d5c8ff1b2d2a93d1fb03b/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="true"
 16        android:icon="@mipmap/ic_launcher"

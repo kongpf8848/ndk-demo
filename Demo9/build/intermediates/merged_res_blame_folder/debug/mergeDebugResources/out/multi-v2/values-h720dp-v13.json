@@ -4,7 +4,7 @@
             "outputFile": "io.github.kongpf8848.ndk.demo.Demo9-mergeDebugResources-6:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/kongpengfei/.gradle/caches/8.9/transforms/5bf2148e2e07334d6a575849f98d5976/transformed/appcompat-1.2.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/Users/kongpengfei/.gradle/caches/8.9/transforms/d019c1d2cb848084ac8bbc3690a30ce0/transformed/appcompat-1.2.0/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

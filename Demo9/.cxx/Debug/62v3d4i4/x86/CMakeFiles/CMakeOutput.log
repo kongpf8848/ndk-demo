@@ -3,17 +3,17 @@ The host system is: Darwin - 24.3.0 - x86_64
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_4fb11"
-[1/2] Building C object CMakeFiles/cmTC_4fb11.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_4fb11
+Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_a918f"
+[1/2] Building C object CMakeFiles/cmTC_a918f.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_a918f
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_58812"
-[1/2] Building C object CMakeFiles/cmTC_58812.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_58812
+Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_62173"
+[1/2] Building C object CMakeFiles/cmTC_62173.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_62173
 Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
 Target: i686-none-linux-android21
 Thread model: posix
@@ -23,16 +23,16 @@ Found candidate GCC installation: /Users/kongpengfei/Desktop/jack/software/andro
 Selected GCC installation: /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_58812 /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/i386 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_58812.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
+ "/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_62173 /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/i386 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_62173.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_58812"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_58812.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_58812]
+  ignore line: [Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_62173"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_62173.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_62173]
   ignore line: [Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)]
   ignore line: [Target: i686-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -44,7 +44,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_58812 /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/i386 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_58812.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
+  link line: [ "/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_62173 /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/i386 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_62173.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
     arg [/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -60,7 +60,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_58812] ==> ignore
+    arg [cmTC_62173] ==> ignore
     arg [/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/i386] ==> dir [/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/i386]
     arg [-L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -78,7 +78,7 @@ Parsed C implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_58812.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_62173.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -101,9 +101,9 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_2ab99"
-[1/2] Building C object CMakeFiles/cmTC_2ab99.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_2ab99
+Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_dd812"
+[1/2] Building C object CMakeFiles/cmTC_dd812.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_dd812
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -115,9 +115,9 @@ Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cm
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_df55d"
-[1/2] Building C object CMakeFiles/cmTC_df55d.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_df55d
+Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_cd84b"
+[1/2] Building C object CMakeFiles/cmTC_cd84b.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_cd84b
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -129,9 +129,9 @@ Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cm
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_2d7c7"
-[1/2] Building C object CMakeFiles/cmTC_2d7c7.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_2d7c7
+Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_de2d6"
+[1/2] Building C object CMakeFiles/cmTC_de2d6.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_de2d6
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -141,17 +141,17 @@ Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cm
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_6bc1c"
-[1/2] Building CXX object CMakeFiles/cmTC_6bc1c.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_6bc1c
+Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_e7a48"
+[1/2] Building CXX object CMakeFiles/cmTC_e7a48.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_e7a48
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_f7ca1"
-[1/2] Building CXX object CMakeFiles/cmTC_f7ca1.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_f7ca1
+Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_3c7a2"
+[1/2] Building CXX object CMakeFiles/cmTC_3c7a2.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_3c7a2
 Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
 Target: i686-none-linux-android21
 Thread model: posix
@@ -161,16 +161,16 @@ Found candidate GCC installation: /Users/kongpengfei/Desktop/jack/software/andro
 Selected GCC installation: /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_f7ca1 /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/i386 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_f7ca1.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
+ "/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_3c7a2 /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/i386 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_3c7a2.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_f7ca1"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_f7ca1.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_f7ca1]
+  ignore line: [Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_3c7a2"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_3c7a2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_3c7a2]
   ignore line: [Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)]
   ignore line: [Target: i686-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -182,7 +182,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_f7ca1 /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/i386 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_f7ca1.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
+  link line: [ "/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_3c7a2 /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/i386 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_3c7a2.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
     arg [/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -198,7 +198,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f7ca1] ==> ignore
+    arg [cmTC_3c7a2] ==> ignore
     arg [/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/i386] ==> dir [/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.9/lib/linux/i386]
     arg [-L/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -216,7 +216,7 @@ Parsed CXX implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_f7ca1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_3c7a2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-Bstatic] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-Bdynamic] ==> ignore
@@ -243,9 +243,9 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_83c46"
-[1/2] Building CXX object CMakeFiles/cmTC_83c46.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_83c46
+Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_445fd"
+[1/2] Building CXX object CMakeFiles/cmTC_445fd.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_445fd
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -310,9 +310,9 @@ Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cm
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_e4d67"
-[1/2] Building CXX object CMakeFiles/cmTC_e4d67.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_e4d67
+Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_ccd82"
+[1/2] Building CXX object CMakeFiles/cmTC_ccd82.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_ccd82
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -377,9 +377,9 @@ Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cm
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_b3595"
-[1/2] Building CXX object CMakeFiles/cmTC_b3595.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_b3595
+Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_5b2b6"
+[1/2] Building CXX object CMakeFiles/cmTC_5b2b6.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_5b2b6
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -444,9 +444,9 @@ Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cm
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_671a7"
-[1/2] Building CXX object CMakeFiles/cmTC_671a7.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_671a7
+Run Build Command:"/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja" "cmTC_94a01"
+[1/2] Building CXX object CMakeFiles/cmTC_94a01.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_94a01
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
