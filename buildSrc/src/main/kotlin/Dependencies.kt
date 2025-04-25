@@ -10,6 +10,7 @@ object Config{
     val targetCompatibilityVersion = JavaVersion.VERSION_17
     val versionCode = 1
     val versionName = "1.0.0"
+    val applicationId = "io.github.kongpf8848.ndk.demo"
 
 }
 
@@ -39,6 +40,8 @@ object Versions {
     const val ANDROIDX_DATABINDING_VERSION="4.1.0"
     const val ANDROIDX_ACTIVITY_VERSION="1.2.0-alpha06"
     const val ANDROIDX_FRAGMENT_VERSION="1.3.0-alpha06"
+    const val ANDROIDX_EXT_JUNIT_VERSION="1.1.2"
+    const val ANDROIDX_ESPRESSO_CORE_VERSION="3.3.0"
 
     const val GSON_VERSION = "2.8.2"
     const val JUNIT_VERSION = "4.12"
@@ -55,7 +58,7 @@ object BuildDependencies {
 
     const val junit = "junit:junit:${Versions.JUNIT_VERSION}"
     const val gson = "com.google.code.gson:gson:${Versions.GSON_VERSION}"
-    const val kotlinStdlibJdk7 = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.KOTLIN_VERSION}"
+    const val kotlinStdlib = "org.jetbrains.kotlin:kotlin-stdlib:${Versions.KOTLIN_VERSION}"
     const val rxjava2 = "io.reactivex.rxjava2:rxjava:${Versions.RXJAVA2_VERSION}"
     const val rxAndroid = "io.reactivex.rxjava2:rxandroid:${Versions.RXANDROID_VERSION}"
     const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.RETROFIT_VERSION}"
@@ -97,6 +100,8 @@ object AndroidX {
     const val activityKtx="androidx.activity:activity-ktx:${Versions.ANDROIDX_ACTIVITY_VERSION}"
     const val fragment="androidx.fragment:fragment:${Versions.ANDROIDX_FRAGMENT_VERSION}"
     const val fragmentKtx="androidx.fragment:fragment-ktx:${Versions.ANDROIDX_FRAGMENT_VERSION}"
+    const val extUnit="androidx.test.ext:junit:${Versions.ANDROIDX_EXT_JUNIT_VERSION}"
+    const val espressoCore="androidx.test.espresso:espresso-core:${Versions.ANDROIDX_ESPRESSO_CORE_VERSION}"
 
 }
 
