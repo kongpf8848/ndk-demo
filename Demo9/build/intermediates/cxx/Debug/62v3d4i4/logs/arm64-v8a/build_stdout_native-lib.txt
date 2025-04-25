@@ -1,3 +1,0 @@
-ninja: Entering directory `/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/arm64-v8a'
-[1/2] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
-[2/2] Linking CXX shared library /Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/build/intermediates/cxx/Debug/62v3d4i4/obj/arm64-v8a/libnative-lib.so

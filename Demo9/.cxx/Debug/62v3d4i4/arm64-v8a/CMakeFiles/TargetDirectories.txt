@@ -1,3 +1,0 @@
-/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/arm64-v8a/CMakeFiles/rebuild_cache.dir
-/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/arm64-v8a/CMakeFiles/edit_cache.dir
-/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/arm64-v8a/CMakeFiles/native-lib.dir

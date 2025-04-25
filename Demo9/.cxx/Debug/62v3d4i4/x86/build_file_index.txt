@@ -1,1 +1,0 @@
-/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/src/main/cpp/CMakeLists.txt
