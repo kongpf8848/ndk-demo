@@ -1,2 +1,0 @@
-ninja: Entering directory `/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo2/.cxx/Debug/481m395r/arm64-v8a'
-ninja: no work to do.
