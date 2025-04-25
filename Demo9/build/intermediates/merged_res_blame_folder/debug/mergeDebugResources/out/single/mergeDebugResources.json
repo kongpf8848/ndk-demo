@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.github.kongpf8848.ndk.demo.Demo9-debug-8:/layout_activity_main.xml.flat",
+        "source": "io.github.kongpf8848.ndk.demo.Demo9-main-10:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/layout_activity_main.xml.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-main-10:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-debug-8:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/kongpengfei/.gradle/daemon/8.9/io.github.kongpf8848.ndk.demo.Demo9-pngs-4:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    }
+]

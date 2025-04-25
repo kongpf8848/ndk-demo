@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "artifactName": "native-lib",
+      "buildCommandComponents": [
+        "/Users/kongpengfei/Desktop/jack/software/android-sdk-macos/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/.cxx/Debug/62v3d4i4/x86",
+        "native-lib"
+      ],
+      "abi": "x86",
+      "output": "/Users/kongpengfei/Desktop/jack/workspace/Github/ndk-demo/Demo9/build/intermediates/cxx/Debug/62v3d4i4/obj/x86/libnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}
