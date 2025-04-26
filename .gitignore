@@ -60,3 +60,8 @@ gradle-app.setting
 /Demo9/.idea
 /Demo9/.cxx
 /Demo9/build
+
+/Demo10/.gradle
+/Demo10/.idea
+/Demo10/.cxx
+/Demo10/build
