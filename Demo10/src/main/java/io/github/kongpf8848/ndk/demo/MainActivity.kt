@@ -4,9 +4,6 @@ import android.Manifest
 import android.app.Activity
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.os.Looper
-import android.os.MessageQueue
-import android.util.Log
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
@@ -20,15 +17,20 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val button1: Button = findViewById(R.id.button1)
         button1.setOnClickListener {
-            initPath()
             testCrash()
         }
-        if (ActivityCompat.checkSelfPermission(this@MainActivity,Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+        if (ActivityCompat.checkSelfPermission(
+                this@MainActivity,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
             ActivityCompat.requestPermissions(
                 this,
                 arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE),
                 100
             )
+        } else {
+            initPath()
         }
     }
 
@@ -38,12 +40,12 @@ class MainActivity : AppCompatActivity() {
         grantResults: IntArray
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        if(requestCode==100 && grantResults[0]== Activity.RESULT_OK) {
+        if (requestCode == 100 && grantResults[0] == Activity.RESULT_OK) {
             initPath()
         }
     }
 
-    private fun initPath(){
+    private fun initPath() {
         val file = File(applicationContext.externalCacheDir, "crash")
         if (!file.exists()) {
             file.mkdirs()
